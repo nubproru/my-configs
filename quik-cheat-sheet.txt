@@ -1,0 +1,27 @@
+AwesomeWM cheat sheet (it has default and custom comands)
+
+super is confgured to be the "win" key
+
+cc = custom configured to be ...
+
+super + enter     = terminal
+super + shift + c = close window
+super + s         = help menu
+super + a         = audio (cc pavucontrol)
+super + r         = run prompt (cc dmenu)
+super + v         = file manager (cc pcmanfm)
+super + b         = browser (cc firefox)
+super + j         = focus on next "window"
+super + r         = focus on previous "window"
+ctrl + super + enter = move "window" to master "window"
+super + h         = + master("window") width factor
+super + l         = - master("window") width factor
+super + space     = next "mode" (floting window, tiling window,...)
+
+
+software: 
+nitrogen    = background manager
+pavucontrol = volume control (audio)
+dmenu       = run programes
+pcmanfm     = filemanager
+compton     = efects like transparantsy *idk how to say that
