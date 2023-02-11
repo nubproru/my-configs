@@ -2,6 +2,7 @@
 AwesomeWM and other configs 
 I made this just so i can configure all my devices quicker, and have a backup of my configs.
 this config assumes your on arch and already have pulseaudio 
+rc.lua is suposed to be in ~/.config/awesome
 needed package list:
 compton pcmanfm dmenu pavucontrol nitrogen 
 and line 50 in rc.lua you can add the terminal your using 
