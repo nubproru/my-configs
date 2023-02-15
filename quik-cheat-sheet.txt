@@ -25,3 +25,5 @@ pavucontrol = volume control (audio)
 dmenu       = run programes
 pcmanfm     = filemanager
 compton     = efects like transparantsy *idk how to say that
+cbatticon   = battary icon (system tray)
+lxsession   = authentication agent
