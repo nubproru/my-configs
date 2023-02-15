@@ -583,7 +583,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("compton")
 awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("start-pulseaudio-x11")
--- Battary icon (only needed for laptops)
 awful.spawn.with_shell("cbatticon")
+awful.spawn.with_shell("lxsession -s awesome -e awesome")
 
 
