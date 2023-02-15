@@ -20,3 +20,9 @@ https://github.com/nubproru/my-configs/blob/5817901f87d0ba5b441c139f0abeef094376
 you can add keybindings at line 313
 https://github.com/nubproru/my-configs/blob/5db72bf79f369c849fec62671be7c8efacfc33ca/rc.lua#L313
 
+# Bash config/.bashrc
+
+just a config for bash
+
+Installation:
+copy/replace .bashrc in home directory. 
