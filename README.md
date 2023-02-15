@@ -1,5 +1,5 @@
 # my-configs
-AwesomeWM and other configs 
+AwesomeWM and system configs 
 
 I made this just so i can configure all my devices quicker, and have a backup of my configs.
 this config assumes your on arch and already have pulseaudio 
