@@ -17,6 +17,7 @@ ctrl + super + enter = move "window" to master "window"
 super + h         = + master("window") width factor
 super + l         = - master("window") width factor
 super + space     = next "mode" (floting window, tiling window,...)
+super + w         = pass(word manager)
 
 
 software: 
@@ -27,3 +28,4 @@ pcmanfm     = filemanager
 compton     = efects like transparantsy *idk how to say that
 cbatticon   = battary icon (system tray)
 lxsession   = authentication agent
+pass        = password manager
