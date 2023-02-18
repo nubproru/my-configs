@@ -250,9 +250,7 @@ globalkeys = gears.table.join(
         end,
         {description = "focus previous by index", group = "client"}
     ),
-    awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
-              {description = "show main menu", group = "awesome"}),
-
+    
     -- Layout manipulation
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
               {description = "swap with next client by index", group = "client"}),
@@ -325,12 +323,17 @@ globalkeys = gears.table.join(
     awful.util.spawn("pcmanfm") end,
               {description = "open pcmanfm", group = "launcher"}),
 
-    -- pavucontrol
+    -- passmenu
+    awful.key({ modkey },            "w",     function ()
+    awful.util.spawn("passmenu") end,
+              {description = "run passmenu", group = "launcher"}),
+
+   -- pavucontrol
     awful.key({ modkey },            "a",     function ()
     awful.util.spawn("pavucontrol") end,
               {description = "run pavucontrol", group = "launcher"}),
 
-    awful.key({ modkey }, "x",
+   awful.key({ modkey }, "x",
               function ()
                   awful.prompt.run {
                     prompt       = "Run Lua code: ",
