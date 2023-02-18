@@ -9,7 +9,7 @@ Put rc.lua in ~/.config/awesome
 (note: If this directory does not exist after installation of the AwesomeWM you can just create one)
 
 needed package list:
-compton(picom on arch) pcmanfm dmenu pavucontrol nitrogen cbatticon lxsession
+Can be found in pkg-list
 
 other packages:
 lxappearance = seting themes
