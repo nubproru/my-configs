@@ -6,7 +6,8 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1="\e[0;31m\h\e[0m\e[0;32m@\e[0m\e[1;35m\u\e[0m \e[1;32m\W\e[0m \e[1;36m\$\e[0m "
+
+PS1='\[\e[96m\]battery:\[\e[93m\]$(echo | cat /sys/class/power_supply/BAT1/capacity)%\[\e[91m\]\h\[\e[93m\]@\[\e[95m\]\u \[\e[93;1m\]\w \[\e[0;96m\]\$ \[\e[0m\]'
 
 echo "
    ____           ____       __    _ ______   _  _______    
